@@ -1,0 +1,53 @@
+
+  .attribution {
+    font-size: 15px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+body{
+  background-color: blue;
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit';
+  text-align: center;
+}
+
+.middle-component{
+  position: relative;
+  background-color: blue;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 18rem;
+  margin: 250px auto;
+  padding-bottom: 15px;
+}
+@media(max-width: 600px) {
+  .middle-component{
+    margin: 50px auto;
+    width: 20rem;
+  }
+  .attribution{
+    padding-top: 150px;
+  }
+}
+.QR-image{
+  margin-top: 15px;
+  width: 90%;
+  border-radius: 15px;
+}
+p{
+  font-size: 15px;
+}
+.title-pitch{
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.pitch{
+  margin: 15px 20px;
+  font-weight: 400;
+
+}
